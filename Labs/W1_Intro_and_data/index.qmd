@@ -5,9 +5,9 @@ format:
     code-fold: false
 ---
 
-> [!info] Lab Overview
->
-> In this practical lab, we will load different data tables and visualize their structures as discussed in the theoretical session. We will explore how Cross-Sectional, Time Series, and Panel data look in R.
+::: {.callout-info title="Lab Overview"}
+In this practical lab, we will load different data tables and visualize their structures as discussed in the theoretical session. We will explore how Cross-Sectional, Time Series, and Panel data look in R.
+:::
 
 ## Setting up the environment
 
@@ -79,7 +79,7 @@ Providing the session information ensures reproducibility by recording the exact
 sessionInfo()
 ```
 
-> [!tip] Cross-References
->
-> * Return to the [Week 1 Theory](../../Sessions/W1_Intro_and_data/index.qmd)
-> * Return to the [Course Root](../../index.qmd)
+::: {.callout-tip title="Cross-References"}
+* Return to the [Week 1 Theory](../../Sessions/W1_Intro_and_data/index.qmd)
+* Return to the [Course Root](../../index.qmd)
+:::

@@ -186,10 +186,9 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<blockquote class="blockquote">
-<p>[!info] Session Overview</p>
+<div class="callout-info" title="Session Overview">
 <p>This session introduces the foundational concepts of quantitative methods and the structure of data. We explore what variables are, their different types, causality, and how data is structured for analysis.</p>
-</blockquote>
+</div>
 <section id="what-is-a-variable" class="level2">
 <h2 class="anchored" data-anchor-id="what-is-a-variable">1. What is a Variable?</h2>
 <p>In quantitative methods, a <strong>variable</strong> is any characteristic, number, or quantity that can be measured or counted. A variable may also be called a data item. Examples include age, sex, business income and expenses, country of birth, capital expenditure, class grades, and eye color.</p>
@@ -226,20 +225,38 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Time Series Data</strong>: Observations of one or more variables over time (e.g., daily stock prices over a month).</li>
 <li><strong>Panel (Longitudinal) Data</strong>: Observations of the same subjects over multiple time periods (e.g., tracking the income of the same group of individuals over five years).</li>
 </ol>
-<blockquote class="blockquote">
-<p>[!tip] Cross-References</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Cross-References">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Cross-References
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
 <li>Proceed to the <a href="../../Labs/W1_Intro_and_data/index.html">Week 1 Data Lab</a> to learn how to load and visualize these data structures in R.</li>
 <li>Return to the <a href="../../index.html">Course Root</a></li>
 </ul>
-</blockquote>
-<blockquote class="blockquote">
-<p>[!note] References and Materials</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled" title="References and Materials">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>References and Materials
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p><strong>Download (Originals)</strong></p>
 <ul>
 <li><a href="./W1_intro_and_data.pptx">W1. Intro and data.pptx</a></li>
 </ul>
-</blockquote>
+</div>
+</div>
 
 
 </section>
@@ -318,7 +335,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/BscLCG@github\.com\/BscLCG\/Quant-Methods\.git");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

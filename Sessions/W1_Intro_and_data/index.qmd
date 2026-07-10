@@ -5,9 +5,9 @@ format:
     code-fold: false
 ---
 
-> [!info] Session Overview
->
-> This session introduces the foundational concepts of quantitative methods and the structure of data. We explore what variables are, their different types, causality, and how data is structured for analysis.
+::: {.callout-info title="Session Overview"}
+This session introduces the foundational concepts of quantitative methods and the structure of data. We explore what variables are, their different types, causality, and how data is structured for analysis.
+:::
 
 ## 1. What is a Variable?
 
@@ -44,13 +44,13 @@ Before analyzing data, we must understand how it is structured. The three main s
 2. **Time Series Data**: Observations of one or more variables over time (e.g., daily stock prices over a month).
 3. **Panel (Longitudinal) Data**: Observations of the same subjects over multiple time periods (e.g., tracking the income of the same group of individuals over five years).
 
-> [!tip] Cross-References
->
-> * Proceed to the [Week 1 Data Lab](../../Labs/W1_Intro_and_data/index.qmd) to learn how to load and visualize these data structures in R.
-> * Return to the [Course Root](../../index.qmd)
+::: {.callout-tip title="Cross-References"}
+* Proceed to the [Week 1 Data Lab](../../Labs/W1_Intro_and_data/index.qmd) to learn how to load and visualize these data structures in R.
+* Return to the [Course Root](../../index.qmd)
+:::
 
-> [!note] References and Materials
->
-> **Download (Originals)**
-> 
-> - [W1. Intro and data.pptx](./W1_intro_and_data.pptx)
+::: {.callout-note title="References and Materials"}
+**Download (Originals)**
+
+- [W1. Intro and data.pptx](./W1_intro_and_data.pptx)
+:::
