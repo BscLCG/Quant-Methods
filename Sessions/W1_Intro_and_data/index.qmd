@@ -46,7 +46,7 @@ Before analyzing data, we must understand how it is structured. The three main s
 
 > [!tip] Cross-References
 >
-> * Proceed to the [Week 1 Data Lab](../../Labs/W1_Intro_and_data/README.qmd) to learn how to load and visualize these data structures in R.
+> * Proceed to the [Week 1 Data Lab](../../Labs/W1_Intro_and_data/index.qmd) to learn how to load and visualize these data structures in R.
 > * Return to the [Course Root](../../index.qmd)
 
 > [!note] References and Materials

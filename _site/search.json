@@ -55,6 +55,26 @@
     ]
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Quantitative Methods Course",
+    "section": "",
+    "text": "Welcome to the Quantitative Methods course repository.\nHere you will find the materials, labs, and assignments for the course.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#topics",
+    "href": "index.html#topics",
+    "title": "Quantitative Methods Course",
+    "section": "Topics",
+    "text": "Topics\n\nWeek 1: Intro and Data Structures",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
     "objectID": "Sessions/W1_Intro_and_data/README.html",
     "href": "Sessions/W1_Intro_and_data/README.html",
     "title": "Week 1: Introduction and Data Structures",

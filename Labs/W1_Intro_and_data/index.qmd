@@ -81,5 +81,5 @@ sessionInfo()
 
 > [!tip] Cross-References
 >
-> * Return to the [Week 1 Theory](../../Sessions/W1_Intro_and_data/README.qmd)
+> * Return to the [Week 1 Theory](../../Sessions/W1_Intro_and_data/index.qmd)
 > * Return to the [Course Root](../../index.qmd)

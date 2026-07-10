@@ -3,8 +3,8 @@ project:
   output-dir: _site
   render:
     - index.qmd
-    - Sessions/W1_Intro_and_data/README.qmd
-    - Labs/W1_Intro_and_data/README.qmd
+    - Sessions/W1_Intro_and_data/index.qmd
+    - Labs/W1_Intro_and_data/index.qmd
 
 website:
   title: "Quantitative Methods"
@@ -17,19 +17,17 @@ website:
       - section: "Sessions"
         contents:
           - text: "Week 1: Introduction and Data"
-            file: Sessions/W1_Intro_and_data/README.qmd
+            file: Sessions/W1_Intro_and_data/index.qmd
       - section: "Labs"
         contents:
           - text: "Week 1: Data Lab"
-            file: Labs/W1_Intro_and_data/README.qmd
+            file: Labs/W1_Intro_and_data/index.qmd
 
 format:
   html:
     theme: cosmo
     toc: true
     embed-resources: false
-    highlight-style: a11y-dark
+    highlight-style: github
     code-copy: hover
     code-line-numbers: true
-    filters:
-      - callouts.lua
