@@ -1,0 +1,143 @@
+[
+  {
+    "objectID": "Labs/W1_Intro_and_data/README.html",
+    "href": "Labs/W1_Intro_and_data/README.html",
+    "title": "Week 1 Data Lab: Loading and Visualizing Data Structures",
+    "section": "",
+    "text": "Lab Overview\n\nIn this practical lab, we will load different data tables and visualize their structures as discussed in the theoretical session. We will explore how Cross-Sectional, Time Series, and Panel data look in R.",
+    "crumbs": [
+      "Labs",
+      "Week 1: Data Lab"
+    ]
+  },
+  {
+    "objectID": "Labs/W1_Intro_and_data/README.html#setting-up-the-environment",
+    "href": "Labs/W1_Intro_and_data/README.html#setting-up-the-environment",
+    "title": "Week 1 Data Lab: Loading and Visualizing Data Structures",
+    "section": "Setting up the environment",
+    "text": "Setting up the environment\nWe start by loading the tidyverse package, which provides a cohesive set of tools for data manipulation and visualization.\n\n# Load necessary libraries\nlibrary(tidyverse)",
+    "crumbs": [
+      "Labs",
+      "Week 1: Data Lab"
+    ]
+  },
+  {
+    "objectID": "Labs/W1_Intro_and_data/README.html#cross-sectional-data",
+    "href": "Labs/W1_Intro_and_data/README.html#cross-sectional-data",
+    "title": "Week 1 Data Lab: Loading and Visualizing Data Structures",
+    "section": "1. Cross-Sectional Data",
+    "text": "1. Cross-Sectional Data\nCross-sectional data are observations of a sample of elements taken at one specific point in time. We will use the mtcars dataset built into R.\n\n# Load cross-sectional data\ndata(mtcars)\n\n# Visualize structure\nglimpse(mtcars)\n\nRows: 32\nColumns: 11\n$ mpg  &lt;dbl&gt; 21.0, 21.0, 22.8, 21.4, 18.7, 18.1, 14.3, 24.4, 22.8, 19.2, 17.8,…\n$ cyl  &lt;dbl&gt; 6, 6, 4, 6, 8, 6, 8, 4, 4, 6, 6, 8, 8, 8, 8, 8, 8, 4, 4, 4, 4, 8,…\n$ disp &lt;dbl&gt; 160.0, 160.0, 108.0, 258.0, 360.0, 225.0, 360.0, 146.7, 140.8, 16…\n$ hp   &lt;dbl&gt; 110, 110, 93, 110, 175, 105, 245, 62, 95, 123, 123, 180, 180, 180…\n$ drat &lt;dbl&gt; 3.90, 3.90, 3.85, 3.08, 3.15, 2.76, 3.21, 3.69, 3.92, 3.92, 3.92,…\n$ wt   &lt;dbl&gt; 2.620, 2.875, 2.320, 3.215, 3.440, 3.460, 3.570, 3.190, 3.150, 3.…\n$ qsec &lt;dbl&gt; 16.46, 17.02, 18.61, 19.44, 17.02, 20.22, 15.84, 20.00, 22.90, 18…\n$ vs   &lt;dbl&gt; 0, 0, 1, 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0,…\n$ am   &lt;dbl&gt; 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0,…\n$ gear &lt;dbl&gt; 4, 4, 4, 3, 3, 3, 3, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 4, 4, 4, 3, 3,…\n$ carb &lt;dbl&gt; 4, 4, 1, 1, 2, 1, 4, 2, 2, 4, 4, 3, 3, 3, 4, 4, 4, 1, 2, 1, 1, 2,…\n\n# Show first few rows\nhead(mtcars)\n\n                   mpg cyl disp  hp drat    wt  qsec vs am gear carb\nMazda RX4         21.0   6  160 110 3.90 2.620 16.46  0  1    4    4\nMazda RX4 Wag     21.0   6  160 110 3.90 2.875 17.02  0  1    4    4\nDatsun 710        22.8   4  108  93 3.85 2.320 18.61  1  1    4    1\nHornet 4 Drive    21.4   6  258 110 3.08 3.215 19.44  1  0    3    1\nHornet Sportabout 18.7   8  360 175 3.15 3.440 17.02  0  0    3    2\nValiant           18.1   6  225 105 2.76 3.460 20.22  1  0    3    1",
+    "crumbs": [
+      "Labs",
+      "Week 1: Data Lab"
+    ]
+  },
+  {
+    "objectID": "Labs/W1_Intro_and_data/README.html#time-series-data",
+    "href": "Labs/W1_Intro_and_data/README.html#time-series-data",
+    "title": "Week 1 Data Lab: Loading and Visualizing Data Structures",
+    "section": "2. Time Series Data",
+    "text": "2. Time Series Data\nTime series data consist of observations of one or more variables over time. Here we use the economics dataset from ggplot2.\n\n# Load time series data\ndata(economics)\n\n# Visualize structure\nglimpse(economics)\n\nRows: 574\nColumns: 6\n$ date     &lt;date&gt; 1967-07-01, 1967-08-01, 1967-09-01, 1967-10-01, 1967-11-01, …\n$ pce      &lt;dbl&gt; 506.7, 509.8, 515.6, 512.2, 517.4, 525.1, 530.9, 533.6, 544.3…\n$ pop      &lt;dbl&gt; 198712, 198911, 199113, 199311, 199498, 199657, 199808, 19992…\n$ psavert  &lt;dbl&gt; 12.6, 12.6, 11.9, 12.9, 12.8, 11.8, 11.7, 12.3, 11.7, 12.3, 1…\n$ uempmed  &lt;dbl&gt; 4.5, 4.7, 4.6, 4.9, 4.7, 4.8, 5.1, 4.5, 4.1, 4.6, 4.4, 4.4, 4…\n$ unemploy &lt;dbl&gt; 2944, 2945, 2958, 3143, 3066, 3018, 2878, 3001, 2877, 2709, 2…\n\n# Plotting time series structure quickly\nggplot(economics, aes(x = date, y = psavert)) +\n  geom_line() +\n  labs(title = \"Personal Savings Rate Over Time\", x = \"Date\", y = \"Savings Rate\")",
+    "crumbs": [
+      "Labs",
+      "Week 1: Data Lab"
+    ]
+  },
+  {
+    "objectID": "Labs/W1_Intro_and_data/README.html#panel-or-longitudinal-data",
+    "href": "Labs/W1_Intro_and_data/README.html#panel-or-longitudinal-data",
+    "title": "Week 1 Data Lab: Loading and Visualizing Data Structures",
+    "section": "3. Panel or Longitudinal Data",
+    "text": "3. Panel or Longitudinal Data\nPanel data follows the same elements over multiple time periods. We can simulate a simple structure to understand how it organizes individuals across time.\n\n# Creating a simple mock panel dataset\nset.seed(123)\npanel_data &lt;- tibble(\n  individual_id = rep(1:5, each = 3),\n  year = rep(2021:2023, times = 5),\n  income = round(runif(15, 30000, 80000), 0)\n)\n\n# Visualize structure\nglimpse(panel_data)\n\nRows: 15\nColumns: 3\n$ individual_id &lt;int&gt; 1, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5\n$ year          &lt;int&gt; 2021, 2022, 2023, 2021, 2022, 2023, 2021, 2022, 2023, 20…\n$ income        &lt;dbl&gt; 44379, 69415, 50449, 74151, 77023, 32278, 56405, 74621, …\n\n# Show first few rows\nhead(panel_data)\n\n# A tibble: 6 × 3\n  individual_id  year income\n          &lt;int&gt; &lt;int&gt;  &lt;dbl&gt;\n1             1  2021  44379\n2             1  2022  69415\n3             1  2023  50449\n4             2  2021  74151\n5             2  2022  77023\n6             2  2023  32278",
+    "crumbs": [
+      "Labs",
+      "Week 1: Data Lab"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Quantitative Methods Course",
+    "section": "",
+    "text": "Welcome to the Quantitative Methods course repository.\nHere you will find the materials, labs, and assignments for the course.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#topics",
+    "href": "index.html#topics",
+    "title": "Quantitative Methods Course",
+    "section": "Topics",
+    "text": "Topics\n\nWeek 1: Intro and Data Structures",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "Sessions/W1_Intro_and_data/README.html",
+    "href": "Sessions/W1_Intro_and_data/README.html",
+    "title": "Week 1: Introduction and Data Structures",
+    "section": "",
+    "text": "Session Overview\n\nThis session introduces the foundational concepts of quantitative methods and the structure of data. We explore what variables are, their different types, causality, and how data is structured for analysis.",
+    "crumbs": [
+      "Sessions",
+      "Week 1: Introduction and Data"
+    ]
+  },
+  {
+    "objectID": "Sessions/W1_Intro_and_data/README.html#what-is-a-variable",
+    "href": "Sessions/W1_Intro_and_data/README.html#what-is-a-variable",
+    "title": "Week 1: Introduction and Data Structures",
+    "section": "1. What is a Variable?",
+    "text": "1. What is a Variable?\nIn quantitative methods, a variable is any characteristic, number, or quantity that can be measured or counted. A variable may also be called a data item. Examples include age, sex, business income and expenses, country of birth, capital expenditure, class grades, and eye color.",
+    "crumbs": [
+      "Sessions",
+      "Week 1: Introduction and Data"
+    ]
+  },
+  {
+    "objectID": "Sessions/W1_Intro_and_data/README.html#types-of-variables",
+    "href": "Sessions/W1_Intro_and_data/README.html#types-of-variables",
+    "title": "Week 1: Introduction and Data Structures",
+    "section": "2. Types of Variables",
+    "text": "2. Types of Variables\nVariables are broadly classified into two categories:\n\nCategorical (Qualitative) Variables: Describe a quality or characteristic.\n\nNominal: Categories with no inherent order (e.g., eye color, gender).\nOrdinal: Categories with a logical order or rank (e.g., education level, satisfaction rating).\n\nNumeric (Quantitative) Variables: Represent a measurable quantity.\n\nDiscrete: Can only take specific, separate values (e.g., number of students in a class).\nContinuous: Can take any value within a range (e.g., height, weight, time).",
+    "crumbs": [
+      "Sessions",
+      "Week 1: Introduction and Data"
+    ]
+  },
+  {
+    "objectID": "Sessions/W1_Intro_and_data/README.html#causality-vs.-correlation",
+    "href": "Sessions/W1_Intro_and_data/README.html#causality-vs.-correlation",
+    "title": "Week 1: Introduction and Data Structures",
+    "section": "3. Causality vs. Correlation",
+    "text": "3. Causality vs. Correlation\nA fundamental concept in quantitative methods is distinguishing between correlation (two variables changing together) and causality (one variable causing the change in another). Understanding this distinction is crucial to avoid drawing incorrect conclusions from data patterns.",
+    "crumbs": [
+      "Sessions",
+      "Week 1: Introduction and Data"
+    ]
+  },
+  {
+    "objectID": "Sessions/W1_Intro_and_data/README.html#ai-usage-in-quantitative-analysis",
+    "href": "Sessions/W1_Intro_and_data/README.html#ai-usage-in-quantitative-analysis",
+    "title": "Week 1: Introduction and Data Structures",
+    "section": "4. AI Usage in Quantitative Analysis",
+    "text": "4. AI Usage in Quantitative Analysis\nArtificial Intelligence and machine learning tools are increasingly used to assist in data analysis. AI can help in: * Automating data cleaning and preprocessing. * Identifying complex patterns in large datasets. * Generating preliminary code for statistical models. * Note: Always verify AI-generated insights against statistical principles.",
+    "crumbs": [
+      "Sessions",
+      "Week 1: Introduction and Data"
+    ]
+  },
+  {
+    "objectID": "Sessions/W1_Intro_and_data/README.html#data-structures",
+    "href": "Sessions/W1_Intro_and_data/README.html#data-structures",
+    "title": "Week 1: Introduction and Data Structures",
+    "section": "5. Data Structures",
+    "text": "5. Data Structures\nBefore analyzing data, we must understand how it is structured. The three main structures we study are:\n\nCross-Sectional Data: Observations of a sample at one specific point in time (e.g., survey results from a single year).\nTime Series Data: Observations of one or more variables over time (e.g., daily stock prices over a month).\nPanel (Longitudinal) Data: Observations of the same subjects over multiple time periods (e.g., tracking the income of the same group of individuals over five years).\n\n\n\nCross-References\n\n\nProceed to the Week 1 Data Lab to learn how to load and visualize these data structures in R.\nReturn to the Course Root\n\n\n\n\nReferences and Materials\n\nDownload (Originals)\n\nW1. Intro and data.pptx",
+    "crumbs": [
+      "Sessions",
+      "Week 1: Introduction and Data"
+    ]
+  }
+]
