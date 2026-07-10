@@ -1,0 +1,27 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - README.qmd
+    - Topics/W1_Intro_and_data/README.qmd
+
+website:
+  title: "Quantitative Methods"
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - text: "Home"
+        file: README.qmd
+      - section: "Topics"
+        contents:
+          - text: "Week 1: Intro and Data Structures"
+            file: Topics/W1_Intro_and_data/README.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    embed-resources: false
+    filters:
+      - callouts.lua
