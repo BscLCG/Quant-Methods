@@ -1,6 +1,5 @@
 project:
   type: website
-  output-dir: _site
   render:
     - index.qmd
     - Sessions/W1_Intro_and_data/index.qmd
