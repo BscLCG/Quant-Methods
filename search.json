@@ -65,11 +65,21 @@
     ]
   },
   {
-    "objectID": "index.html#topics",
-    "href": "index.html#topics",
+    "objectID": "index.html#sessions",
+    "href": "index.html#sessions",
     "title": "Quantitative Methods Course",
-    "section": "Topics",
-    "text": "Topics\n\nWeek 1: Intro and Data Structures",
+    "section": "Sessions",
+    "text": "Sessions\n\nWeek 1: Introduction and Data Structures",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#labs",
+    "href": "index.html#labs",
+    "title": "Quantitative Methods Course",
+    "section": "Labs",
+    "text": "Labs\n\nWeek 1 Data Lab: Loading and Visualizing Data",
     "crumbs": [
       "Home"
     ]
