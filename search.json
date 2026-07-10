@@ -4,7 +4,7 @@
     "href": "Labs/W1_Intro_and_data/index.html",
     "title": "Week 1 Data Lab: Loading and Visualizing Data Structures",
     "section": "",
-    "text": "[!info] Lab Overview\nIn this practical lab, we will load different data tables and visualize their structures as discussed in the theoretical session. We will explore how Cross-Sectional, Time Series, and Panel data look in R.",
+    "text": "In this practical lab, we will load different data tables and visualize their structures as discussed in the theoretical session. We will explore how Cross-Sectional, Time Series, and Panel data look in R.",
     "crumbs": [
       "Labs",
       "Week 1: Data Lab"
@@ -89,7 +89,7 @@
     "href": "Sessions/W1_Intro_and_data/index.html",
     "title": "Week 1: Introduction and Data Structures",
     "section": "",
-    "text": "[!info] Session Overview\nThis session introduces the foundational concepts of quantitative methods and the structure of data. We explore what variables are, their different types, causality, and how data is structured for analysis.",
+    "text": "This session introduces the foundational concepts of quantitative methods and the structure of data. We explore what variables are, their different types, causality, and how data is structured for analysis.",
     "crumbs": [
       "Sessions",
       "Week 1: Introduction and Data"
@@ -144,7 +144,7 @@
     "href": "Sessions/W1_Intro_and_data/index.html#data-structures",
     "title": "Week 1: Introduction and Data Structures",
     "section": "5. Data Structures",
-    "text": "5. Data Structures\nBefore analyzing data, we must understand how it is structured. The three main structures we study are:\n\nCross-Sectional Data: Observations of a sample at one specific point in time (e.g., survey results from a single year).\nTime Series Data: Observations of one or more variables over time (e.g., daily stock prices over a month).\nPanel (Longitudinal) Data: Observations of the same subjects over multiple time periods (e.g., tracking the income of the same group of individuals over five years).\n\n\n[!tip] Cross-References\n\nProceed to the Week 1 Data Lab to learn how to load and visualize these data structures in R.\nReturn to the Course Root\n\n\n\n[!note] References and Materials\nDownload (Originals)\n\nW1. Intro and data.pptx",
+    "text": "5. Data Structures\nBefore analyzing data, we must understand how it is structured. The three main structures we study are:\n\nCross-Sectional Data: Observations of a sample at one specific point in time (e.g., survey results from a single year).\nTime Series Data: Observations of one or more variables over time (e.g., daily stock prices over a month).\nPanel (Longitudinal) Data: Observations of the same subjects over multiple time periods (e.g., tracking the income of the same group of individuals over five years).\n\n\n\n\n\n\n\nTipCross-References\n\n\n\n\nProceed to the Week 1 Data Lab to learn how to load and visualize these data structures in R.\nReturn to the Course Root\n\n\n\n\n\n\n\n\n\nNoteReferences and Materials\n\n\n\nDownload (Originals)\n\nW1. Intro and data.pptx",
     "crumbs": [
       "Sessions",
       "Week 1: Introduction and Data"
