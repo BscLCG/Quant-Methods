@@ -6,6 +6,10 @@ Welcome to the Quantitative Methods course repository.
 
 Here you will find the materials, labs, and assignments for the course.
 
-## Topics
+## Sessions
 
-* [Week 1: Intro and Data Structures](Topics/W1_Intro_and_data/README.qmd)
+* [Week 1: Introduction and Data Structures](Sessions/W1_Intro_and_data/index.qmd)
+
+## Labs
+
+* [Week 1 Data Lab: Loading and Visualizing Data](Labs/W1_Intro_and_data/index.qmd)
